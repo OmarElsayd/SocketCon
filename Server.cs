@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public class Client2Text : MonoBehaviour
 {
     Thread mThread;
-    public string connectionIP = "172.24.30.208";
+    public string connectionIP = "127.0.0.0";
     public int connectionPort = 9999;
     IPAddress localAdd;
     TcpListener listener;
