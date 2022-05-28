@@ -1,1 +1,8 @@
-This project will set up network communication using socket library in Python that will sit as server on a Raspberry Pi and the client on PC to receive an information from motion sensor and distance sensor connected by a GPIO bored to the Raspberry Pi. Your Raspberry Pi will receive the variables and in there from the board encoded to UTF-8 and send it to the client. The client will receive the message and decode it
+# Vuzix Smart Glasses project 
+### Objectives:
+- Setup network comounication between a Rassberry Pi and Smart glasses
+- Receive date from motion and ultrasonic distance sensors.
+- Read and translate the data
+- Use the established network comunaction to send data from the Rasberry Pi to the glasses
+- Implement, design, and deploy an application that will receive the data and display them
+
